@@ -1,0 +1,22 @@
+{
+    "name": "casti/ejemplotokens",
+    "description": "Laboratorio de API CRUD",
+    "type": "project",
+    "require-dev": {
+        "gitsindonesia/php-jwt": "^6.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Casti\\Ejemplotokens\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anthony"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "7.0"
+    }
+}
